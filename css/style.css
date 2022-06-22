@@ -24,6 +24,10 @@ p {
     padding-bottom: 32px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .country-container {
     padding: 32px;
     display: flex;
@@ -39,9 +43,17 @@ p {
     display: flex;
     border: 1px solid white;
     border-radius: 5px;
+    margin: 12px 10px;
+}
+
+.country-link {
+    height: 120px;
+    min-width: 180px;
+    max-width: 360px;
+    flex: 1 1 360px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px 10px;
 }
 
 .travel-advice {
