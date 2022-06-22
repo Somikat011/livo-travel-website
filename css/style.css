@@ -5,3 +5,13 @@ body {
     text-align: center;
     font-size: 12px;
 }
+
+.country-container {
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-advice {
+    padding: 32px;
+}
