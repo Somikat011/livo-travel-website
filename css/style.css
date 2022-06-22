@@ -3,8 +3,11 @@ body {
     background-color: #DCD0FF;
     color: black;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
+    padding: 32px 33% 0px 33%;
 }
+
+
 
 .country-container {
     padding: 32px;
