@@ -4,7 +4,7 @@ body {
     color: black;
     text-align: center;
     font-size: 16px;
-    padding: 32px 33% 0px 33%;
+    padding: 32px 30% 0px 30%;
 }
 
 h2 {
@@ -27,7 +27,21 @@ p {
 .country-container {
     padding: 32px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.country {
+    height: 120px;
+    min-width: 180px;
+    max-width: 360px;
+    flex: 1 1 360px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 10px;
 }
 
 .travel-advice {
